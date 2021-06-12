@@ -35,31 +35,19 @@ const roundResult= function(playerChoice,computerChoice){
     if(playerChoice === computerChoice){
         showRoundResult("tie",playerChoice,computerChoice)
     }
-    if (playerChoice === "rock"){      
-        if (computerChoice === "paper"){
+    if ((playerChoice === "rock"&&computerChoice === "paper")||
+        (playerChoice === "paper"&&computerChoice === "scissors")||
+        (playerChoice === "scissors"&&computerChoice === "rock")){      
             cScore++;
-            showRoundResult("lose",playerChoice,computerChoice)
-        }else if (computerChoice === "scissors"){
+            showRoundResult("lose",playerChoice,computerChoice)  
+        }
+    if ((playerChoice === "rock"&&computerChoice === "scissors")||
+        (playerChoice === "paper"&&computerChoice === "rock")||
+        (playerChoice === "scissors"&&computerChoice === "paper")){
             pScore++;
             showRoundResult("win",playerChoice,computerChoice)
         }   
-    }else if (playerChoice === "paper"){
-        if (computerChoice === "rock"){
-            showRoundResult("win",playerChoice,computerChoice)
-            pScore++;
-        }else if (computerChoice === "scissors"){
-            cScore++;
-            showRoundResult("lose",playerChoice,computerChoice)
-        }  
-    }else {
-        if (computerChoice === "rock"){
-            cScore++;
-            showRoundResult("lose",playerChoice,computerChoice)
-        }else if (computerChoice === "paper"){
-            pScore++;
-            showRoundResult("win",playerChoice,computerChoice)
-        }
-    }
+    
 }
 const gameResult= function(){
     if(pScore === 5){  
