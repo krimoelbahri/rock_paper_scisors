@@ -54,11 +54,13 @@ const gameResult= function(){
        setTimeout(()=>{alert("Congratulations, You Win. Press 'OK' to play again")}, 100);
         pScore=0;
         cScore=0;
+        roundScore.innerHTML='';
         showScore();
     }else if (cScore === 5){
         setTimeout(()=>{alert("Oh NO , You lose. Press 'OK' to play again")},100);
         pScore=0;
         cScore=0
+        roundScore.innerHTML='';
         showScore();
     }else{
         showScore();
