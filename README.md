@@ -6,5 +6,6 @@ It's a simple Rock-Paper-Scissors, where i tried to give it a little bit of inte
 
 ## License & Copyright
 
-© Guezlane Karim, Full Stack Web Dev
+© Guezlane Karim, Full Stack Web Dev.
+
 Discord : GuezlaneKarim#4487.
