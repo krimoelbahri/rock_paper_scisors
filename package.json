@@ -1,0 +1,22 @@
+{
+  "name": "rock_paper_scisors",
+  "version": "1.0.0",
+  "description": "RPS Game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krimoelbahri/rock_paper_scisors.git"
+  },
+  "author": "Elbahri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krimoelbahri/rock_paper_scisors/issues"
+  },
+  "homepage": "https://github.com/krimoelbahri/rock_paper_scisors#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}
