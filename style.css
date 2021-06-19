@@ -1,44 +1,43 @@
+/*flex class*/
+.flexR {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.flexC {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+/*HTML elements*/
 html {
 	min-height: 100%;
 	background-color: orange;
 }
 body {
-	margin-top: 70px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 550px;
+	height: 600px;
 	width: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background-color: #aac731;
 }
 img {
-	width: 100%;
-	height: 100%;
+	width: 90%;
+	height: 90%;
 }
 h3 {
-	display: flex;
 	font-size: x-large;
-	align-items: center;
-	justify-content: center;
 }
 h1 {
-	position: fixed;
-	top: 25px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	font-size: xx-large;
+	height: 5%;
+}
+p {
+	height: 2.5%;
 }
 #container {
-	display: flex;
-	height: 95%;
+	height: 85%;
 	width: 95%;
-	flex-direction: column;
-	align-content: center;
-	align-items: center;
 	justify-content: space-evenly;
 }
 #computerImg {
@@ -46,11 +45,6 @@ h1 {
 	width: 50%;
 }
 #roundScore {
-	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: center;
-	align-items: center;
 	height: 7%;
 	width: 90%;
 	background-color: orange;
@@ -62,11 +56,7 @@ h1 {
 #playerSelection {
 	width: 100%;
 	height: 27%;
-	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
-	align-content: center;
-	align-items: center;
 }
 #computerScore {
 	width: 50%;
@@ -79,4 +69,7 @@ h1 {
 .choiceHolder {
 	height: 90%;
 	width: 30%;
+}
+.body {
+	justify-content: space-around;
 }
